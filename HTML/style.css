@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabezero{
+    display: flex;
+    align-items: center;
+    background-color: #003876;
+    color: white;
+    padding-left: 55px;
+    font-size: 0.53rem;
+}
+
+.cabezero img{
+    width: 20px;
+    height: 15px;
+    padding: 5px;
+}
+
+.cabezero p{
+    padding-left: 10px;
+}
+
+.cabezero p a{
+    color: #04b0cb;
+    padding-left: 9px;
+    font-size: 0.60rem;
+}
+
+#MainParte1 img{
+    width: 100%;
+}
+
+#Busqueda{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #a6a6a6;
+}
+
+#Busqueda img{
+    width: 180px;
+    margin-top: 1rem;
+    padding-left: 55px;
+}
+
+
+.barrita{
+    border: 1px solid;
+    height: 37px;
+    border-radius: 20px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    border-color: #a6a6a6;
+    border-right-color: #F04540;
+    position: relative;
+    margin-left: 47rem;
+}
+
+.barrita  input{
+    border: none;
+    margin-right: 20px;
+    outline: none;
+    color: #a6a6a6;
+}
+.barrita div{
+    height: 37px;
+    width: 37px;
+    background-color: #F04540;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.barrita svg{
+border-radius: 100%;
+color: white;
+}
+
+
+#cuadricula{
+    width: 50px;
+    height: 30px;
+    margin-left: 2rem;
+}
+
+.cuadro{
+    border-left: 1px solid #a6a6a6;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 4rem;
+    gap: 28px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: #003876;
+}
+#MainParte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#MainParte1 img{
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+
+.detalles{
+    position: absolute;
+    margin-top: 150px;
+    margin-right: 595px;
+}
+
+.detalles button{
+    border-radius: 20px;
+    width: 220px;
+    height: 45px;
+    border: none;
+    background-color: #ff7600;
+    color: white;
+    font-size: 20px;
+}
+
+.servicios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin-top: 3rem;
+    margin-left: 50px;
+}
+
+.servicios h2{
+    font-size: 1.8rem;
+}
