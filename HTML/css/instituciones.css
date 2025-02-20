@@ -15,7 +15,7 @@
     background-color: #003876;
     color: white;
     padding-left: 55px;
-    font-size: 0.53rem;
+    font-size: 10px;
 }
 
 .cabezero img{
@@ -26,12 +26,13 @@
 
 .cabezero p{
     padding-left: 10px;
+    font-size: 11px;
 }
 
 .cabezero p a{
     color: #04b0cb;
     padding-left: 9px;
-    font-size: 0.60rem;
+    font-size: 0.65rem;
 }
 
 #MainParte1 img{
@@ -119,7 +120,7 @@ nav{
 nav a{
     text-decoration: none;
     font-size: 0.75rem;
-    color: #003876;
+    color: #3e9acfef;
 }
 nav a:hover{
     color: #ff7600;
@@ -169,7 +170,9 @@ nav a:hover{
     background-color: #003876;
     width: 100%;
     height: 5rem;
+    padding-top: 50px;
 }
+
 .background-container{
     background-image:url(/HTML/img/d0ad5462-d4e3-441e-9208-0b39b3d1ea24-expresosde.jpeg)  ;
     background-size: cover;
@@ -181,7 +184,7 @@ nav a:hover{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 70, 150, 0.6);
+    background-color: rgba(24, 75, 133, 0.541);
 
 }
 .imagenes{
@@ -206,33 +209,22 @@ nav a:hover{
 
 
 }
-.botones button{
-    border-radius: 20px;
-    border: none;
-    color: white;
-    padding: 10px 30px;
-    background-color: #8ed91e;
-    font-size: 1rem;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    top: -10rem;
-    display: flex;
 
-}
  .h1{
     font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     top: 20rem;
-    color: white;   
+    color: white;
+    padding-top: 150px; 
+      
 }
 button:hover{
     background: #ff7600;
 }
 .img1,.img2,.img3{
-    background-color: #003876;
+    
     width: 400px;
     height: 400px;
     display: flex;
@@ -253,7 +245,7 @@ button:hover{
     border-radius: 20px;
     background-color: #8ed91e;
     color: white;
-    width: 100px;
+    width: 200px;
     height: 2.5rem;
     border: none;
 }
@@ -265,5 +257,3 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
-
-    
