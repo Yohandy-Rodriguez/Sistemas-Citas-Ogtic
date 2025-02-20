@@ -121,6 +121,11 @@ nav a{
     font-size: 0.75rem;
     color: #003876;
 }
+nav a:hover{
+    color: #ff7600;
+    border-bottom: 2px solid #555;
+    transform: scale(1.1);
+}
 #MainParte1 {
     display: flex;
     justify-content: center;
@@ -203,6 +208,7 @@ nav a{
 }
 .botones button{
     border-radius: 20px;
+    border: none;
     color: white;
     padding: 10px 30px;
     background-color: #8ed91e;
@@ -230,13 +236,34 @@ button:hover{
     width: 400px;
     height: 400px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
 }
 .registro{
    position: relative;
    bottom: 50%;
    
+}
+.imagenes button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #8ed91e;
+    color: white;
+    width: 100px;
+    height: 2.5rem;
+    border: none;
+}
+.imagenes button:hover{
+    background-color: #ff7600;
+}
+.cuerpo button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
     

@@ -4,7 +4,6 @@
     margin: 0 ;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
 
 }
 
@@ -121,7 +120,7 @@ nav a{
     text-decoration: none;
     font-size: 0.75rem;
     color: #003876;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 nav a:hover{
     color: #ff7600;
@@ -165,8 +164,7 @@ nav a:hover{
 
 .form-container {
     background: white;
-    
-    max-width: 500px;
+    max-width: 1000px;
     height: 700px;
     margin: 20px auto;
     padding: 20px;
@@ -174,10 +172,13 @@ nav a:hover{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     position: relative;
     top: -30rem;
+    box-shadow: inset 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+
 }
 .form-container input:hover{
-    transform: scale(1.1);
-
+font-size: 16px;
+border: 2px solid rgb(155, 152, 152);
+box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.466);
 }
 h2 {
     text-align: center;
@@ -185,7 +186,8 @@ h2 {
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    padding-top: 8px;
 }
 
 label {
@@ -196,8 +198,16 @@ label {
 .form-container input, select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 5px;
+    transition: all 100ms ease;
+    box-shadow: inset 0px 0px 5Spx rgba(0, 0, 0, 0.13);
+}
+.form-container select:hover{
+color: #666; 
+font-size: 16px;
+border: 2px solid black;
+box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.466);
 }
 
  .form-group button {
@@ -213,6 +223,10 @@ label {
 
 button:hover {
     background-color: #0055a5;
+}
+footer{
+    margin: 0;
+    
 }
 
 /* Responsive */

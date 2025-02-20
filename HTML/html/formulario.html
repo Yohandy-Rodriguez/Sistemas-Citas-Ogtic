@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario</title>
+    <title>Formulario</title>
     <link rel="stylesheet" href="/HTML/css/formulario.css">
     <style>
         .responsive{
@@ -57,9 +57,9 @@
             <a href="#inicio">Inicio</a>
             <a href="#sobre-nosotros">Sobre nosotros</a>
             <select name="servicio" id="servicio" onchange="redirigir()">
-                <option value="inicio.html">servicio</option>
-                <option value="formulario.html">agenda</option>
-                <script src="nav.js"></script>
+                <option value="inicio.html">Servicio</option>
+                <option value="formulario.html">Agenda</option>
+                <script src="/HTML/js/nav.js"></script>
             </select>
             <a href="#firma-digital">Firma digital</a>
             <a href="#atencion-ciudadana">Atención ciudadana</a>
@@ -73,7 +73,7 @@
     </header>
 
     <div class="color">
-        <h1>formulario</h1>
+        <h1>Formulario</h1>
     </div>
     <main>
         </div>
@@ -87,23 +87,22 @@
             <div class="registro">
             <form>
                 <div class="form-group">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="nombre" required>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
                     <div class="form-group">
-                    <label for="apellido">apellido:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder=" apellido" required>
-                    <div>
-                    <label for="correo" >correo</label>
-                    <input type="gmail" id="correo"  name="correo" placeholder="correo" required>
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder=" Apellidos" required>
+                    <label for="correo" >Correo:</label>
+                    <input type="gmail" id="correo"  name="correo" placeholder="Correo" required>
                     </div>
                     </div>
 
 
                 </div>
                 <div class="form-group">
-                    <label for="asunto">asunto:</label>
+                    <label for="asunto">Asunto:</label>
                     <select id="asunto" name="asunto" required>
-                        <option value="Procuraduría General de la República:">Selecciona un Servicio</option>
+                        <option value="Procuraduría General de la República:">Selecciona un servicio</option>
                         <option value="Dirección General de Pasaportes">Dirección General de Pasaportes</option>
                         <option value="Gabinete de Política Social">Gabinete de Política Social</option>
                         <option value="Junta Central Electoral">Junta Central Electoral</option>
@@ -111,87 +110,77 @@
                         <option value="Instituto Nacional de Tránsito y Transporte Terrestre (INTRANT)">Instituto Nacional de Tránsito y Transporte Terrestre (INTRANT)</option>
                         <option value="Tesorería de la Seguridad Social (TSS)">Tesorería de la Seguridad Social (TSS)</option>
                         <option value="Seguro Nacional de Salud (SeNaSa)">Seguro Nacional de Salud (SeNaSa)</option>
-                        <option value="Instituto Nacional de Protección de los Derechos del Consumidor (Pro Consumidor)">Instituto Nacional de Protección de
-                             los Derechos del Consumidor (Pro Consumidor)</option>
+                        <option value="Instituto Nacional de Protección de los Derechos del Consumidor (Pro Consumidor)">Instituto Nacional de Protección de los Derechos del Consumidor (Pro Consumidor)</option>
                         <option value="Ministerio de Trabajo">Ministerio de Trabajo</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="raza">cedula</label> 
-                    <input type="docu" id="cedula" name="cedula" placeholder="cedula">
+                    <label for="raza">Cédula</label> 
+                    <input type="docu" id="cedula" name="cedula" placeholder="Cédula">
                 </div>
                     
                    </select>
                    <div class="form-group">
-                    <label for="dia">dia</label>
+                    <label for="dia">Día:</label>
                     <select name="dia" id="dia" required>
-                    <option value="selecciona un dia ">selecciona un dia</option>
-                    <option value="lunes">lunes</option>
-                    <option value="martes">martes</option>
-                    <option value="miercoles">miercoles</option>
-                    <option value="jueves">jueves</option>
-                    <option value="viernes">viernes</option>
-                    <option value="sabado">sabado</option>
-                    <option value="domingo">domingo</option>
+                    <option value="selecciona un dia ">Selecciona un día</option>
+                    <option value="lunes">Lunes</option>
+                    <option value="martes">Martes</option>
+                    <option value="miercoles">Miércoles</option>
+                    <option value="jueves">Jueves</option>
+                    <option value="viernes">Viernes</option>
+                    <option value="sabado">Sábado</option>
                     </select>
 
                 </div>
                 <div class="form-group">
-                    <label for="hora">hora</label>
+                    <label for="hora">Hora:</label>
                     <select name="hora" id="hora" required>
-                        <option value="selaciona la hora">selecciona la hora</option>
-                        <option value="8am">8am</option>
-                        <option value="9am">9am</option>
-                        <option value="10am">10am</option>
-                        <option value="11am">11am</option>
-                        <option value="12am">12am</option>
-                        <option value="1pm">1pm</option>
-                        <option value="2pm">2pm</option>
-                        <option value="3pm">3pm</option>
-                        <option value="4pm">4pm</option>
-                        <option value="5pm">5pm</option>
-                        <option value="6pm">6pm</option>
-                        <option value="7pm">7pm</option>
-                        <option value="8pm">8pm</option>
+                        <option value="selaciona la hora">Selecciona la hora</option>
+                        <option value="8am">8:00a.m.</option>
+                        <option value="9am">9:00a.m.</option>
+                        <option value="10am">10:00a.m.</option>
+                        <option value="11am">11:00a.m.</option>
+                        <option value="12am">12:00p.m.</option>
+                        <option value="1pm">1:00p.m.</option>
+                        <option value="2pm">2:00p.m.</option>
+                        <option value="3pm">3:00p.m.</option>
+                        <option value="4pm">4:00p.m.</option>
+                        <option value="5pm">5:00p.m.</option>
+                        <option value="6pm">6:00p.m.</option>
+                       
 
                     </select>
 
                 </div>
-                <div class="form-group">
-                    <label for="lugar">lugar</label>
+            <di:v class="form-group">
+                    <label for="lugar">Lugar:</label>
                     <select name="lugar" id="lugar">
-                        <option value="Punto GOB Megacentro">Punto GOB Megacentro: </option>
-                        <option value="Punto GOB Sambil:
-                        ">Punto GOB Sambil:
-                    </option>
-                        <option value="Punto GOB Santo Domingo Este:
-                        ">Punto GOB Santo Domingo Este:
-                    </option>
-                        <option value=Punto GOB Santo Domingo Oeste:">Punto GOB Santo Domingo Oeste:</option>
-                        <option value="Punto GOB Santiago:
-                        ">Punto GOB Santiago:
-                    </option>
-                        <option value=Punto GOB Santo Doming Norte:
-">Punto GOB Santo Doming Norte:
-</option>
-                        <option value="Punto GOB San Cristóbal:
-                        ">Punto GOB San Cristóbal:
-                    </option>
+                        <option value="Punto GOB Megacentro">Punto GOB Megacentro</option>
+                        <option value="Punto GOB Sambil">Punto GOB Sambil</option>
+                        <option value="Punto GOB Santo Domingo Este">Punto GOB Santo Domingo Este</option>
+                        <option value="Punto GOB Santo Domingo Oeste">Punto GOB Santo Domingo Oeste</option>
+                        <option value="Punto GOB Santiago">Punto GOB Santiago</option>
+                      <option value="Punto GOB Santo Doming Norte">Punto GOB Santo Doming Norte</option>
+                        <option value="Punto GOB San Cristóbal:">Punto GOB San Cristóbal</option>
                     </select>
 
                 </div>
                 </div>
+           
                 <div class="form-group">
-                    <button type="submit">registrarse</button>
+                    <button type="submit">Registrarse</button>
                 </div>
-            </form>
+        
             </div>
+        </form>
+        
         </section>
     </main>
-    <script src="formulario.js"></script>
-    <script src="datos-servidor.js"></script>
-    <script src="guardar-datos.js"></script>
-    <script src="centrodedatos.js"></script>
+    <script src="/HTML/js/formulario.js"></script>
+    <script src="/HTML/js/datos-servidor.js"></script>
+    <script src="/HTML/js/guardar-datos.js"></script>
+    <script src="/HTML/js/centrodedatos.js"></script>
     </body>
 </html>
 
