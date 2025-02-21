@@ -47,8 +47,11 @@
     align-items: center;
     padding-bottom: 10px;
     border-bottom: 2px solid #a6a6a6;
+    width: 96.3%;
     justify-content: space-between;
     padding: 10px 55px;
+    position: relative;
+    right: 4rem;
 }
 
 #Busqueda img{
@@ -129,6 +132,12 @@ nav select{
     color: #003876;
     width: 5rem;
  }
+ nav select:hover{
+    color: #ff7600;
+    border-bottom: 2px solid #555;
+    transform: scale(1.1);
+     
+ }
 
 nav a{
     text-decoration: none;
@@ -181,9 +190,7 @@ nav a{
     height: 0.25rem;
 }
 
-.background-container{
-   z-index:-2;
-}
+
 .cuerpo{
     display: flex;
     justify-content: center;
@@ -206,15 +213,18 @@ main{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(0px);
-    background-color: rgba(0, 0, 0, 0.1);
+   width: 100%;
+   height: 500px;
+    backdrop-filter: blur(1.5px);
+    background-color: rgba(0, 0, 0, 0.6);
 
    
 }
 
-
+.background-container{
+    position: relative;
+   
+}
 
 .imagenes{
     display: flex;
@@ -274,6 +284,7 @@ main{
     font-weight: 700; /* Negrita */
     font-style: italic;
     color: white; /* Ajusta según el fondo */
+    font-size: 9rem;
 }
 span{
     font-size: 150%;
@@ -600,8 +611,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: -4rem;
+    
 }
 .footer-container {
     background-color: white;

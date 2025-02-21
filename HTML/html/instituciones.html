@@ -46,34 +46,39 @@
         </section>
 
         <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#sobre-nosotros">Sobre nosotros</a>
-            <a href="#servicio">Servicio</a>
-            <a href="#firma-digital">Firma digital</a>
+            <a href="#inicio" onclick="location.href='/HTML/html/inicio.html'" onchange=""">Inicio</a>
+            <a href="#sobre nosotros">Sobre nosotros</a>
+            <select name="servicio" id="servicio" onchange="redirigir()">
+                <option value="/HTML/html/inicio.html" onclick="location.href='/HTML/html/inicio.html'">Servicio</option>
+                <option value="/HTML/html/instituciones.html">Agenda</option>
+                <script src="/HTML/js/nav.js"></script>
+            </select>
+            <a href="#firma digital">Firma digital</a>
             <a href="#atecion ciudadana">Atención ciudadana</a>
             <a href="#normativas">Normativas</a>
-            <a href="#centro-de-datos">Centro de datos</a>
+            <a href="#centro de datos">Centro de datos</a>
             <a href="#trasparencia">Transparencia</a>
-            <a href="#sala-de-prensa">Sala de prensa</a>
-            <a href="#buzon-sugerencia">Buzón Sugerencias</a>
+            <a href="#sala de prensa">Sala de prensa</a>
+            <a href="#buzon sugerencia">Buzón Sugerencias</a>
             <a href="#contacto">Contacto</a>
         </nav>
     </header>
-   <div class="color">
-    <h1 class="h1">Instituciones</h1>
-
+  
    </div>
    
    <main>
     <div class=" background-container">
         <div class="overlay">
         </div>
-
     </div>
-        
-    
+   
+      
 
         <div class="imagenes">
+            <div class="h1">
+                <h1 >Instituciones</h1>
+                </div>
+            
              <div class="img1">
             <img src="/HTML/img/logo3.png" alt="Logo 3" id=".gob" style="width: 15rem;">
             <button style="margin-top: 60px;" onclick="location.href='formulario.html'";>Elegir</button>
@@ -98,8 +103,9 @@
      </div>
      </section>
    </main>
-
+    </div>
+    <div class="footer">
+    <footer>&copy;Desarrollado por la ogtic</footer>
     </div>
    </body>
-
 </html>
