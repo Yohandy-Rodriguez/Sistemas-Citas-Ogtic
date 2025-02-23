@@ -280,6 +280,7 @@ button:hover{
     }
 
 }
+
 .footer{
     width: 100%;
     height: 50px;
@@ -291,4 +292,5 @@ button:hover{
     position: relative;
     bottom: -31rem;
     padding-bottom: 5rem;
+    background-image:url(../img/d0ad5462-d4e3-441e-9208-0b39b3d1ea24-expresosde.jpeg) ;
 } 

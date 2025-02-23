@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Básico con HTML y CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f0f0f0;
+        }
+
+        .slider {
+            width: 600px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 12px;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .slides {
+            display: flex;
+            width: 300%;
+            animation: slide 9s infinite;
+        }
+
+        .slides img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(0%); }
+            33.33% { transform: translateX(-100%); }
+            66.66% { transform: translateX(-200%); }
+            100% { transform: translateX(0%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <img src="https://via.placeholder.com/600x300/FF5733/FFFFFF?text=1" alt="Slide 1">
+            <img src="https://via.placeholder.com/600x300/33FF57/FFFFFF?text=2" alt="Slide 2">
+            <img src="https://via.placeholder.com/600x300/3357FF/FFFFFF?text=3" alt="Slide 3">
+        </div>
+    </div>
+</body>
+</html>
