@@ -1,0 +1,17 @@
+create database cita;
+use cita;
+
+create table solicitudes(
+	id_solicitud int primary key auto_increment,
+    nombre varchar(200),
+    apellido varchar(200),
+    correo varchar(200),
+    Asunto varchar(200),
+    cedula varchar(200),
+    Dia varchar(200),
+    hora varchar(200),
+    lugar varchar(200),
+    institucion varchar(200)
+);
+
+select * from solicitudes;
