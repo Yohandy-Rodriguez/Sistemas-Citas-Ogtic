@@ -255,7 +255,7 @@ nav a:hover{
 }
 
 .servicios-container p {
-    font-size: 14px;
+    font-size: 14px;    
     color: #555;
     margin-top: 5px;
 }
@@ -428,6 +428,7 @@ button:hover {
 .footer-container {
     background-color: white;
     padding: 30px 50px;
+    
 }
 
 .footer-top {
