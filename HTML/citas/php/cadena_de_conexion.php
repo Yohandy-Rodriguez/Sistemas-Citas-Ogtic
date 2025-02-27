@@ -8,7 +8,7 @@ class Database
     private $port = "3306";           // Puerto de MySQL (por defecto 3306)
     private $database = "cita";       // Nombre de la base de datos
     private $username = "root";       // Nombre de usuario de la base de datos
-    private $password = "1212";       // Contraseña de la base de datos
+    private $password = "";       // Contraseña de la base de datos
     private $charset = "utf8";        // Codificación de caracteres
 
     // Método para establecer la conexión con la base de datos
